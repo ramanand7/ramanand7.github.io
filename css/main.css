@@ -1,0 +1,59 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-shadow: inherit;
+    overflow-x: hidden;
+    min-height: 100vh;
+    background-image: linear-gradient(to right top, rgba(255, 161, 127, 0.342), rgba(0, 34, 62, 0.432)),
+        url(https://icons.iconarchive.com/icons/thehoth/seo/256/seo-web-code-icon.png);
+    background-position: center center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none !important;
+}
+
+h5{
+    font-size: 100%;
+}
+.size-of-card{
+    min-height: 70px;
+}
+.file-info a {
+    margin: 0 10px;
+}
+
+.iconPos i {
+    position: relative;
+    top: 0px;
+}
+.logo{
+    font-size: 14px;
+    position: relative;
+    top: -8px;
+}
+.main-logo{
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+.main-logo:visited{
+    color: #000 !important;
+}
+.title-anchor{
+    display:inline-flex !important
+}
+.span-box{
+    position: absolute;
+    top:0;
+    right:0;
+    transform: translate(-20%, 20%);
+}
+
+@media only screen and (max-width: 376px){
+    a{
+        display: flex !important;
+    }
+}
